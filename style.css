@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    border:border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    height: 60px;
+    background-color: #E85C0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logobar{
+    height: 50px;
+    width: 140px;
+}
+.logo{
+    background-image: url("/images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 0px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.panel{
+    height: 50px;
+    background-color: #222f3d;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-menu{
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 100%;
+    font-size: 1.25rem;
+}
+/* END of Header-Section */
+#hero{
+    background-color: #2F5061;
+    height: 650px;
+}
+.box1{
+    height: 120px;
+    /* background-color: aliceblue; */
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.big{
+    height: 120px;
+    width: 25%;
+    margin-left: 10%;
+    padding-right: 8px;
+    font-size: 6rem;
+    color: #FFF0DF;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.small{
+    height: 120px;
+    color: #F8FAFD;
+    font-size: 2rem;
+    display:flex;
+    align-items: end;
+}
+.line{
+    height: 25px;
+    margin-top: 10px;
+    
+}
+.poster{
+    height: 260px;
+    margin-top: 10px;
+    /* background-color: white; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#posterpic{
+    height: 250px;
+    width: 500px;
+    background-image: url("/images/poster.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.bar{
+    height: 80px;
+    margin-top: 100px;
+    /* background-color: #F8FAFD; */
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.extra_box{
+    height: 80px;
+    width: 45%;
+    border-radius: 50px;
+    background-color: #E85C0D;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#box11{
+    height: 70px;
+    width: 120px;
+    border-radius: 50%;
+    /* background-color: black; */
+    color: white;
+    font-size: 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-weight: 550;
+}
