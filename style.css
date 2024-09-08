@@ -15,7 +15,7 @@
     width: 140px;
 }
 .logo{
-    background-image: url("/images/logo.png");
+    background-image: url("./images/logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 50px;
@@ -94,7 +94,7 @@
 #posterpic{
     height: 250px;
     width: 500px;
-    background-image: url("/images/poster.jpg");
+    background-image: url("./images/poster.jpg");
     background-size: cover;
     border-radius: 10px;
     
